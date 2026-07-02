@@ -1,0 +1,17 @@
+{
+  "name": "Smallgood",
+  "short_name": "Smallgood",
+  "description": "One small, real thing you can do this week.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0C7F73",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

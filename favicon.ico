@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Smallgood">
+  <rect width="128" height="128" rx="30" fill="#0C7F73"/>
+  <g fill="none" stroke="#F4A52A" stroke-width="7" stroke-linecap="round">
+    <path d="M84 14v8"/>
+    <path d="M84 64v8"/>
+    <path d="M56 43h8"/>
+    <path d="M104 43h8"/>
+    <path d="m64 23 6 6"/>
+    <path d="m104 23-6 6"/>
+    <path d="m104 63-6-6"/>
+  </g>
+  <circle cx="84" cy="43" r="15" fill="#F4A52A"/>
+  <path fill="#fff" d="M31 82c0-18 14-33 32-33h6v18h-6c-8 0-15 7-15 15v6h-17v-6Z"/>
+  <path fill="#F0FAF7" d="M55 88c0-14 11-25 25-25h17v17H80c-5 0-8 3-8 8v9H55v-9Z"/>
+</svg>
