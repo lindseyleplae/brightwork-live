@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Smallgood">
+  <rect width="128" height="128" rx="30" fill="#FFFFFF"/>
+  <g transform="translate(8.8,1.9) scale(1.15)">
+    <path d="M48 78 C48 66 48 58 48 50" stroke="#0C7F73" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M48 60 C36.5 58.5 31 49 31.5 39 C41.5 40 47.5 48.5 48 60 Z" fill="#0C7F73"/>
+    <path d="M48 50 C59.5 48.5 65 39 64.5 29 C54.5 30 48.5 38.5 48 50 Z" fill="#F0A32E"/>
+    <line x1="34" y1="80" x2="62" y2="80" stroke="#23231E" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
