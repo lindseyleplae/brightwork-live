@@ -1,161 +1,32 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Smallgood — one small, good thing this week</title>
-<meta name="description" content="Smallgood hands you one real, verified way to help San Francisco — sized to your actual life. Free, nonprofit, no ads.">
-<meta property="og:title" content="Smallgood — one small, good thing this week">
-<meta property="og:description" content="Pick a mood. Get one verified way to help SF this week. One tap and it's on your calendar.">
-<meta property="og:image" content="https://smallgood.org/og-image.png">
-<meta property="og:url" content="https://smallgood.org/">
-<link rel="icon" href="/app/icons/icon.svg">
-<script>
-// Legacy hash links (old QR codes, shares): smallgood.org/#/o/... -> the app
-if (location.hash && location.hash.startsWith('#/')) location.replace('/app/' + location.hash);
-</script>
-<link rel="stylesheet" href="/site.css">
-<style>.hero { padding:64px 0 20px; text-align:center; }
-.hero h1 { font-weight:800; font-size:clamp(42px,8.5vw,84px); line-height:1.02; letter-spacing:-0.035em; text-wrap:balance; }
-.hero h1 .g { color:var(--teal); }
-.hero .dek { font-size:clamp(17px,2.4vw,21px); color:var(--ink2); max-width:34em; margin:22px auto 0; text-wrap:balance; }
-.hero .ctas { margin:34px 0 14px; display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
-.hero .fine { font-size:13px; font-weight:700; color:var(--ink2); letter-spacing:.08em; text-transform:uppercase; }
-.moods { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; padding:34px 0 10px; }
-.mood { font-weight:800; font-size:15px; padding:10px 18px; border-radius:999px; white-space:nowrap; }
-section { padding:72px 0 0; }
-.kicker { color:var(--teal); font-weight:800; font-size:12.5px; letter-spacing:.16em; text-transform:uppercase; }
-h2 { font-weight:800; font-size:clamp(28px,4.6vw,42px); letter-spacing:-0.03em; line-height:1.1; margin:10px 0 14px; text-wrap:balance; }
-.steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:18px; margin-top:30px; }
-.step { background:var(--tint); border-radius:20px; padding:26px; }
-.step .num { font-weight:800; font-size:14px; color:var(--teal); letter-spacing:.1em; }
-.step h3 { font-weight:800; font-size:20px; letter-spacing:-0.02em; margin:8px 0 8px; }
-.step p { color:var(--ink2); font-size:15px; }
-.stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:18px; margin-top:30px; }
-.stat { border:2px solid var(--hair); border-radius:20px; padding:24px; }
-.stat .n { font-weight:800; font-size:42px; color:var(--teal); letter-spacing:-0.03em; line-height:1.05; }
-.stat p { color:var(--ink2); font-size:14px; margin-top:6px; }
-.promise { background:var(--ink); color:#fff; border-radius:26px; padding:clamp(30px,5vw,54px); margin-top:72px; text-align:center; }
-.promise h2 { color:#fff; }
-.promise p { color:#C4D2CD; max-width:36em; margin:10px auto 0; }
-.promise .gold { color:var(--gold); font-weight:800; }
-.orgs { display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; }
-.orgs .card { background:var(--tint); border-radius:20px; padding:26px; }
-.orgs ul { list-style:none; display:grid; gap:12px; margin-top:16px; }
-.orgs li { padding-left:26px; position:relative; font-size:15px; color:var(--ink2); }
-.orgs li::before { content:'🌱'; position:absolute; left:0; }
-.deadfooter { margin-top:90px; border-top:2px solid var(--hair); padding:34px 0 60px; display:flex; flex-wrap:wrap; gap:12px 28px; align-items:center; font-size:13.5px; color:var(--ink2); font-weight:700; }
-.deadfooter a { color:var(--teal); text-decoration:none; }
-footer a:hover { text-decoration:underline; }
-.up { opacity:0; transform:translateY(14px); animation:up .7s ease forwards; }
-.d1 { animation-delay:.08s; } .d2 { animation-delay:.16s; } .d3 { animation-delay:.24s; }
-@keyframes up { to { opacity:1; transform:none; } }
-@media (prefers-reduced-motion: reduce) { .up { animation:none; opacity:1; transform:none; } html { scroll-behavior:auto; } }
-@media (max-width:720px) { .orgs { grid-template-columns:1fr; } }
-</style>
-</head>
-<body>
-<header class="site wrap">
-  <a class="wm" href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)"><svg viewBox="24 18 48 66" xmlns="http://www.w3.org/2000/svg" class="sprout" aria-hidden="true">
-<path d="M48 78 C48 66 48 58 48 50" fill="none" stroke="var(--ink)" stroke-width="6" stroke-linecap="round"/>
-<path d="M48 62 C35 60.5 29.5 50 30 38 C41 39 47.5 48.5 48 62 Z" fill="var(--teal)"/>
-<path d="M48 50 C61 48.5 66.5 38 66 26 C55 27 48.5 36.5 48 50 Z" fill="var(--gold)"/>
-<path d="M33 80 H63" fill="none" stroke="var(--ink)" stroke-width="7" stroke-linecap="round"/>
-</svg><span>smallgood</span></a>
-  <nav>
-    <a href="/browse.html">Browse</a>
-    <a href="#orgs">For orgs</a>
-    <a class="btn cta-sm" href="/app/">Open the app</a>
-  </nav>
-</header>
-<div class="wrap">
-
-
-
-<div class="hero">
-  <h1 class="up">One small, <span class="g">good</span> thing this&nbsp;week.</h1>
-  <p class="dek up d1">Smallgood hands you a real, verified way to help San Francisco — sized to your actual life. One tap and it's on your calendar, with the follow-through handled.</p>
-  <div class="ctas up d2">
-    <a class="btn" href="/app/">Find your thing</a>
-    <a class="btn ghost" href="/browse.html">Just browsing</a>
-  </div>
-  <p class="fine up d3">Free · Nonprofit · No ads · San Francisco</p>
-</div>
-
-<div class="moods up d3" aria-hidden="true"><span class="mood" style="background:#FBEEDA;color:#8A5A10"><span aria-hidden="true">🐾</span> Animals</span><span class="mood" style="background:#E3F1EA;color:#1F6B4C"><span aria-hidden="true">🌳</span> Outdoors</span><span class="mood" style="background:#FBE7DF;color:#9A3D22"><span aria-hidden="true">🍲</span> Feed people</span><span class="mood" style="background:#EFECFA;color:#4F3FA8"><span aria-hidden="true">🛋️</span> From the couch</span><span class="mood" style="background:#E8F3F1;color:#0A6B60"><span aria-hidden="true">⏱️</span> Got 15 minutes</span><span class="mood" style="background:#FDF3DC;color:#8A5A10"><span aria-hidden="true">🎲</span> Surprise me</span></div>
-
-<section>
-  <p class="kicker">How it works</p>
-  <h2>Helping, minus the homework.</h2>
-  <div class="steps">
-    <div class="step"><span class="num">01</span><h3>Pick a mood</h3><p>Animals. Outdoors. Feed people. From the couch. However today actually feels.</p></div>
-    <div class="step"><span class="num">02</span><h3>Get one good thing</h3><p>Not ten thousand search results. One real, verified opportunity — checked by a human this week, honest about what it takes.</p></div>
-    <div class="step"><span class="num">03</span><h3>We handle the rest</h3><p>On your calendar, reminder the day before, gentle check-in after. Showing up is the whole point — so we built everything around it.</p></div>
-  </div>
-</section>
-
-<section>
-  <p class="kicker">The part nobody told you</p>
-  <h2>The city is full of doors.</h2>
-  <div class="stats">
-    <div class="stat"><span class="n">62%</span><p>of SF volunteer organizations will take you for a <b>single shift</b> — no ongoing commitment. We counted, by hand.</p></div>
-    <div class="stat"><span class="n">1&nbsp;tap</span><p>from "I feel like helping" to a plan on your calendar. Intention is perishable; we move fast.</p></div>
-    <div class="stat"><span class="n">Wed</span><p>every listing re-verified <b>every Wednesday morning</b>, by a human. No dead links, no wild-goose chases.</p></div>
-  </div>
-</section>
-
-<section id="thisweek">
-  <p class="kicker">Live from the app</p>
-  <h2 class="sec">This week, in the city.</h2>
-  <div class="cards" id="featured"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
-  <p style="margin-top:22px"><a class="btn ghost" href="/browse.html">Browse everything →</a></p>
-</section>
-<script src="/site.js"></script>
-<script>
-(async () => {
-  try {
-    const all = await loadListings();
-    const pick = [], seen = new Set();
-    for (const o of all) { if (!seen.has(o.cause) && pick.length < 6) { pick.push(o); seen.add(o.cause); } }
-    for (const o of all) { if (pick.length >= 6) break; if (!pick.includes(o)) pick.push(o); }
-    document.getElementById('featured').innerHTML = pick.map(card).join('');
-  } catch (e) {
-    document.getElementById('featured').innerHTML = '<p style="color:var(--ink2)">Fresh listings are in <a href="/app/">the app</a> — come on in. 🌱</p>';
-  }
-})();
-</script>
-<div class="promise">
-  <h2>No streaks. No leaderboards. <span class="gold">No guilt.</span></h2>
-  <p>Life gets loud, and you are never behind here. There's only the next small good thing, whenever you're ready — and a little garden in the app that's glad when you come back.</p>
-</div>
-
-<section id="orgs">
-  <p class="kicker">For organizations</p>
-  <div class="orgs">
-    <div>
-      <h2>You do the mission. We'll be the back&nbsp;office.</h2>
-      <p style="color:var(--ink2)">Volunteer coordination is operations — and nobody funds your operations. So we built them, and they're yours: <b>free, forever</b>.</p>
-    </div>
-    <div class="card">
-      <ul>
-        <li>Type one sentence — our AI drafts your listing. Describe a big project — it comes back in volunteer-sized pieces.</li>
-        <li>One-tap applications, automatic reminders, rosters, and attendance you confirm with a single tap.</li>
-        <li>Volunteers arrive informed: your requirements, your steps, honestly stated.</li>
-      </ul>
-      <p style="margin-top:20px"><a class="btn" href="/app/#/post">Post an opportunity</a></p>
-    </div>
-  </div>
-</section>
-
-
-
-</div>
-<footer class="site wrap">
-  <span>© 2026 Smallgood · a nonprofit project</span>
-  <span>Strictly nonpartisan 🌱</span>
-  <a href="mailto:hello@smallgood.org">hello@smallgood.org</a>
-  <a href="/browse.html">Browse everything</a>
-  <a href="/app/">Open the app</a>
-</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta name="description" content="Smallgood hands you one real, verified way to help San Francisco — sized to your actual life. Free, nonprofit, no ads." />
+    <link rel="icon" href="/app/icons/icon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Smallgood" />
+    <meta property="og:title" content="Smallgood — one small, good thing this week" />
+    <meta property="og:description" content="Pick a mood. Get one verified way to help SF this week. One tap and it's on your calendar." />
+    <meta property="og:url" content="https://smallgood.org/" />
+    <meta property="og:image" content="https://smallgood.org/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Smallgood — one small, good thing this week" />
+    <meta name="twitter:description" content="Pick a mood. Get one verified way to help SF this week." />
+    <meta name="twitter:image" content="https://smallgood.org/og-image.png" />
+    <script>
+      if (location.hash && location.hash.startsWith('#/')) location.replace('/app/' + location.hash);
+    </script>
+    <title>Smallgood — one small, good thing this week</title>
+    <script type="module" crossorigin src="/assets/index-DCX_sLfG.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/native-DIYtYEOG.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-BXt1kGBc.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>

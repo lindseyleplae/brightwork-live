@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Allow: /browse
+Allow: /for-orgs
 Allow: /app/
 
 Sitemap: https://smallgood.org/sitemap.xml
