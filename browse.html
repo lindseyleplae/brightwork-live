@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Browse — Smallgood</title>
+<meta name="description" content="Every verified way to help San Francisco this week. Filter by mood, sign up in a tap.">
+<link rel="icon" href="/app/icons/icon.svg">
+<link rel="stylesheet" href="/site.css">
+<script>if (location.hash && location.hash.startsWith('#/')) location.replace('/app/' + location.hash);</script>
+<style>
+.tools { display:flex; gap:8px; flex-wrap:wrap; margin:18px 0 6px; }
+.tools button { font:800 13.5px 'PJS'; padding:9px 16px; border-radius:999px; border:2px solid var(--hair); background:#fff; color:var(--ink2); cursor:pointer; }
+.tools button[aria-pressed="true"] { background:var(--teal); border-color:var(--teal); color:#fff; }
+.tools button:focus-visible { outline:3px solid var(--gold); outline-offset:2px; }
+.count { font-size:13px; font-weight:700; color:var(--ink2); margin-top:10px; }
+.empty { text-align:center; color:var(--ink2); padding:50px 0; }
+</style>
+</head>
+<body>
+<header class="site wrap">
+  <a class="wm" href="/" style="display:flex;align-items:center;gap:10px"><svg viewBox="24 18 48 66" xmlns="http://www.w3.org/2000/svg" class="sprout" aria-hidden="true">
+<path d="M48 78 C48 66 48 58 48 50" fill="none" stroke="var(--ink)" stroke-width="6" stroke-linecap="round"/>
+<path d="M48 62 C35 60.5 29.5 50 30 38 C41 39 47.5 48.5 48 62 Z" fill="var(--teal)"/>
+<path d="M48 50 C61 48.5 66.5 38 66 26 C55 27 48.5 36.5 48 50 Z" fill="var(--gold)"/>
+<path d="M33 80 H63" fill="none" stroke="var(--ink)" stroke-width="7" stroke-linecap="round"/>
+</svg><span>smallgood</span></a>
+  <nav>
+    <a href="/browse.html">Browse</a>
+    <a href="/#orgs">For orgs</a>
+    <a class="btn cta-sm" href="/app/">Open the app</a>
+  </nav>
+</header>
+<main class="wrap" style="padding-top:14px">
+  <p class="kicker">Everything, verified</p>
+  <h2 class="sec">What helping looks like this&nbsp;week.</h2>
+  <p style="color:var(--ink2);max-width:38em">Every listing checked by a human against the organization's own site — and re-checked every Wednesday. Tap <b>Sign up</b> and you'll land on that exact slot, one tap from done.</p>
+  <div class="tools" role="group" aria-label="Filters" id="filters">
+    <button data-f="all" aria-pressed="true">Everything</button>
+    <button data-f="couch" aria-pressed="false">🛋️ From the couch</button>
+    <button data-f="quick" aria-pressed="false">⏱️ Under an hour</button>
+    <button data-f="animals" aria-pressed="false">🐾 Animals</button>
+    <button data-f="environment" aria-pressed="false">🌳 Outdoors</button>
+    <button data-f="food" aria-pressed="false">🍲 Feed people</button>
+    <button data-f="seniors" aria-pressed="false">🧓 Seniors</button>
+    <button data-f="weekend" aria-pressed="false">🌅 This weekend</button>
+  </div>
+  <p class="count" id="count">Loading the good stuff…</p>
+  <div class="cards" id="cards"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+</main>
+<footer class="site wrap">
+  <span>© 2026 Smallgood · a nonprofit project</span>
+  <span>Strictly nonpartisan 🌱</span>
+  <a href="mailto:hello@smallgood.org">hello@smallgood.org</a>
+  <a href="/browse.html">Browse everything</a>
+  <a href="/app/">Open the app</a>
+</footer>
+<script src="/site.js"></script>
+<script>
+(async () => {
+  const cardsEl = document.getElementById('cards'), countEl = document.getElementById('count');
+  let all = [];
+  try { all = await loadListings(); } catch (e) {
+    cardsEl.innerHTML = '<p class="empty">The list is loading slowly — <a href="/app/">open the app</a> to browse everything right now. 🌱</p>';
+    countEl.textContent = ''; return;
+  }
+  let f = 'all';
+  const match = o => f==='all' ? true
+    : f==='couch' ? o.isRemote
+    : f==='quick' ? o.durationMinutes <= 60
+    : f==='weekend' ? (o.weekend === true)
+    : o.cause === f;
+  const render = () => {
+    const rows = all.filter(match);
+    countEl.textContent = rows.length + ' verified ways to help';
+    cardsEl.innerHTML = rows.map(card).join('') || '<p class="empty">Nothing in this mood right now — try another. 🌱</p>';
+  };
+  document.getElementById('filters').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    f = b.dataset.f;
+    document.querySelectorAll('#filters button').forEach(x => x.setAttribute('aria-pressed', String(x===b)));
+    render();
+  });
+  render();
+})();
+</script>
+</body>
+</html>
