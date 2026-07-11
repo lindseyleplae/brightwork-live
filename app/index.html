@@ -4,6 +4,104 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#FFFFFF" />
+    <script>
+      (function () {
+        var light = '#FFFFFF';
+        var dark = '#151511';
+
+        function stored(key) {
+          try {
+            return window.localStorage.getItem(key);
+          } catch (error) {
+            return null;
+          }
+        }
+
+        function sessionSeen() {
+          try {
+            return window.sessionStorage.getItem('sg_intro_seen') === '1';
+          } catch (error) {
+            return false;
+          }
+        }
+
+        function normalize(pathname) {
+          var path = '/' + String(pathname || '').replace(/^\/+/, '');
+          path = path.replace(/\/+$/, '');
+          return path || '/';
+        }
+
+        function stripAppBase(pathname) {
+          var appBase = '/app';
+          var path = normalize(pathname);
+          if (path === appBase) return '/';
+          if (path.indexOf(appBase + '/') === 0) return normalize(path.slice(appBase.length));
+          return path;
+        }
+
+        function hashRoute(hash) {
+          if (String(hash || '').indexOf('#/') !== 0) return '';
+          return normalize(hash.slice(1).split(/[?#]/)[0] || '/');
+        }
+
+        function authReturn() {
+          var value = (location.pathname + ' ' + location.search + ' ' + location.hash).toLowerCase();
+          return /(?:^|[/?#&])(?:access_token|refresh_token|code|token_hash|error|error_code|verify|type=magiclink)=/.test(value)
+            || /(?:^|\/)(?:auth|verify)(?:\/|$)/.test(normalize(location.pathname).toLowerCase());
+        }
+
+        function defaultRoute() {
+          if (authReturn()) return false;
+          var route = hashRoute(location.hash);
+          if (route) return route === '/' || route === '/discover';
+          if (location.hash) return false;
+          var path = stripAppBase(location.pathname);
+          return path === '/' || path === '/discover';
+        }
+
+        var mode = stored('smallgood:appearance:v1');
+        var useDark = mode === 'dark' || (mode !== 'light' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.classList.toggle('dark', Boolean(useDark));
+        var themeMeta = document.querySelector('meta[name="theme-color"]');
+        if (themeMeta) themeMeta.setAttribute('content', useDark ? dark : light);
+        if (!sessionSeen() && defaultRoute()) document.documentElement.classList.add('sg-intro-prime');
+      })();
+    </script>
+    <style>
+      :root {
+        --sg-app-bg: #FFFFFF;
+        --sg-app-ink: #23231E;
+      }
+
+      :root.dark {
+        --sg-app-bg: #151511;
+        --sg-app-ink: #F2F1EA;
+      }
+
+      html,
+      body,
+      #root {
+        background: var(--sg-app-bg);
+        color: var(--sg-app-ink);
+        min-height: 100%;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      .app-intro-prerender {
+        background: var(--sg-app-bg);
+        display: none;
+        inset: 0;
+        position: fixed;
+        z-index: 90;
+      }
+
+      html.sg-intro-prime .app-intro-prerender {
+        display: block;
+      }
+    </style>
     <meta name="description" content="Smallgood turns 'I should do something' into one small, real way to help in San Francisco — near you or from your couch. Free, no account needed to look around." />
     <link rel="manifest" href="/app/manifest.json" />
     <link rel="icon" href="/app/icons/icon.svg" type="image/svg+xml" />
@@ -24,10 +122,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&display=swap" rel="stylesheet" />
     <title>Smallgood</title>
-    <script type="module" crossorigin src="/app/assets/app-DPvvH0sE.js"></script>
-    <link rel="stylesheet" crossorigin href="/app/assets/app-Bk4HJe-c.css">
+    <script type="module" crossorigin src="/app/assets/app-DAOQGmML.js"></script>
+    <link rel="stylesheet" crossorigin href="/app/assets/app-RC8LHPGq.css">
   </head>
   <body>
+    <div id="sg-intro-prerender" class="app-intro-prerender" aria-hidden="true"></div>
     <div id="root"></div>
   </body>
 </html>
