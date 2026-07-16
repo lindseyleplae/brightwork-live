@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Allow: /browse
+Allow: /microvolunteering
 Allow: /for-orgs
 Allow: /app/
 
