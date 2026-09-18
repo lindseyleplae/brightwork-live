@@ -105,104 +105,164 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://smallgood.org/volunteer/team-rubicon-join-a-veteran-led-service-crew/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/save-the-bay-restore-bay-shoreline-habitat/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/surfrider-sf-clean-up-ocean-beach/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/nature-in-the-city-restore-butterfly-habitat/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/sf-recreation-parks-join-a-neighborhood-park-workday/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/presidio-habitat-stewards-tend-native-habitat-in-the-presidio/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/randall-museum-tend-the-native-pollinator-garden/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/literacy-for-environmental-justice-grow-native-plants-at-the-nursery/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/friends-of-the-urban-forest-plant-street-trees-with-neighbors/</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/muttville-senior-dog-rescue-care-for-senior-dogs-at-hq/</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://smallgood.org/volunteer/muttville-senior-dog-rescue-write-bios-for-adoptable-dogs-from-home/</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://smallgood.org/volunteer/little-brothers-friends-of-the-elderly-call-a-lonely-elder-for-a-few-minutes/</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/openhouse-make-friendly-calls-to-lgbtq-elders/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/together-we-rise-pack-a-comfort-kit-for-a-foster-kid/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/cardz-for-kidz-make-a-card-for-a-hospitalized-kid/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/sf-civic-tech-build-civic-projects-at-a-wednesday-hack-night/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/taproot-plus-give-a-nonprofit-one-hour-of-your-expertise/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/826-valencia-edit-a-student-podcast/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/upwardly-global-run-a-practice-interview/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/upwardly-global-review-a-linkedin-profile/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/upwardly-global-share-industry-knowledge/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/team-rubicon-join-a-veteran-led-service-crew/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/save-the-bay-restore-bay-shoreline-habitat/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/surfrider-sf-clean-up-ocean-beach/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/nature-in-the-city-restore-butterfly-habitat/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/sf-recreation-parks-join-a-neighborhood-park-workday/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/presidio-habitat-stewards-tend-native-habitat-in-the-presidio/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/randall-museum-tend-the-native-pollinator-garden/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/literacy-for-environmental-justice-grow-native-plants-at-the-nursery/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/friends-of-the-urban-forest-plant-street-trees-with-neighbors/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/muttville-senior-dog-rescue-care-for-senior-dogs-at-hq/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://smallgood.org/volunteer/rocket-dog-rescue-cuddle-dogs-at-an-adoption-event/</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/san-francisco-spca-socialize-shelter-cats/</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/sf-animal-care-control-be-a-shelter-outreach-volunteer/</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/sf-marin-food-bank-sort-and-pack-groceries/</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/sf-marin-food-bank-deliver-groceries-to-homebound-neighbors/</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/sf-marin-food-bank-welcome-shoppers-at-a-community-market/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -214,13 +274,13 @@
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/glide-serve-daily-free-meals/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/curry-senior-center-serve-a-meal-to-seniors/</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -238,37 +298,31 @@
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/project-open-hand-prep-meals-for-sick-and-elderly-neighbors/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/meals-on-wheels-sf-deliver-meals-to-homebound-seniors/</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/little-brothers-friends-of-the-elderly-call-a-lonely-elder-for-a-few-minutes/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/little-brothers-friends-of-the-elderly-visit-an-older-neighbor/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/little-brothers-friends-of-the-elderly-be-a-stroll-buddy-for-an-elder/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/san-francisco-village-lend-an-older-neighbor-a-hand/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -280,12 +334,6 @@
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/openhouse-befriend-an-lgbtq-elder/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/openhouse-make-friendly-calls-to-lgbtq-elders/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -309,18 +357,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://smallgood.org/volunteer/together-we-rise-pack-a-comfort-kit-for-a-foster-kid/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/cardz-for-kidz-make-a-card-for-a-hospitalized-kid/</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://smallgood.org/volunteer/sf-public-library-tutor-an-adult-learner-project-read/</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -328,12 +364,6 @@
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/league-of-women-voters-sf-register-voters-at-a-community-event/</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/sf-civic-tech-build-civic-projects-at-a-wednesday-hack-night/</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -399,12 +429,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://smallgood.org/volunteer/taproot-plus-give-a-nonprofit-one-hour-of-your-expertise/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://smallgood.org/volunteer/irs-vita-help-a-neighbor-file-their-taxes-for-free/</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -424,7 +448,7 @@
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/habitat-gsf-prep-playhouse-parts-at-the-bayview-warehouse/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -454,7 +478,7 @@
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/refuse-refuse-sf-join-a-neighborhood-cleanup/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -502,127 +526,115 @@
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-24th-street-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-bayview-3rd-street-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-bernal-heights-monthly-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-central-richmond-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-chinatown-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/civic-joy-fund-dolores-park-volunteering/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-detroit-steps-maintenance-day/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-excelsior-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-fort-miley-cleanup-and-workday/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-hayes-valley-community-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-muttville-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-north-beach-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-south-beach-rincon-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-sunset-boulevard-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/civic-joy-fund-tenderloin-weekly-cleanup/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/sf-public-works-d1-neighborhood-beautification-day-richmond/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/sf-public-works-d8-neighborhood-beautification-day-bernal-heights-glen-park/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/sf-public-works-elliot-path-work-party/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/sf-public-works-garden-club-burrows-pocket-park/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/sf-public-works-glen-park-greenway-beautification-day/</loc>
-    <lastmod>2026-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/826-valencia-edit-a-student-podcast/</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -634,24 +646,6 @@
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/826-valencia-help-students-record-podcasts/</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/upwardly-global-run-a-practice-interview/</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/upwardly-global-review-a-linkedin-profile/</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/upwardly-global-share-industry-knowledge/</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
