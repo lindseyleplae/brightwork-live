@@ -28,19 +28,19 @@
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/smithsonian-transcription-center-transcribe-a-page-of-history/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/library-of-congress-by-the-people-transcribe-historical-documents/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/library-of-congress-by-the-people-review-a-transcribed-page/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -64,7 +64,7 @@
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/distributed-proofreaders-proofread-a-page-for-project-gutenberg/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -82,37 +82,31 @@
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/7-cups-be-a-listening-ear-for-someone/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/catchafire-share-a-skill-with-a-nonprofit/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/translators-without-borders-translate-for-humanitarian-work/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/crisis-text-line-train-to-support-people-in-crisis/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://smallgood.org/volunteer/muttville-senior-dog-rescue-write-bios-for-adoptable-dogs-from-home/</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smallgood.org/volunteer/little-brothers-friends-of-the-elderly-call-a-lonely-elder-for-a-few-minutes/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -167,6 +161,12 @@
   <url>
     <loc>https://smallgood.org/volunteer/upwardly-global-share-industry-knowledge/</loc>
     <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/codepath-help-a-student-with-a-career-session/</loc>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -707,6 +707,60 @@
   <url>
     <loc>https://smallgood.org/volunteer/sf-bicycle-coalition-pitch-in-at-a-volunteer-night/</loc>
     <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/national-aids-memorial-care-for-the-grove/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/raphael-house-cook-dinner-with-your-group/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/the-marsh-usher-a-san-francisco-performance/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/safe-and-sound-prepare-a-community-dinner/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/cityteam-san-francisco-prep-a-hot-meal/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/cityteam-san-francisco-prep-and-serve-a-hot-meal/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/cityteam-san-francisco-serve-dinner/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/haight-ashbury-food-program-help-run-the-saturday-pantry/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smallgood.org/volunteer/kimochi-serve-weekday-lunch-to-seniors/</loc>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
