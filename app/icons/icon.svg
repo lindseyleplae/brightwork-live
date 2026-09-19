@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Smallgood">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="smallgood">
   <rect width="128" height="128" rx="30" fill="#FFFFFF"/>
   <g transform="translate(8.8,1.9) scale(1.15)">
     <path d="M48 78 C48 66 48 58 48 50" stroke="#0C7F73" stroke-width="5" stroke-linecap="round" fill="none"/>

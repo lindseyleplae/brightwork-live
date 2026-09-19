@@ -1,6 +1,6 @@
 {
-  "name": "Smallgood",
-  "short_name": "Smallgood",
+  "name": "smallgood",
+  "short_name": "smallgood",
   "description": "One small, real thing you can do this week.",
   "start_url": "/app/#/",
   "scope": "/app/",
