@@ -1,0 +1,1 @@
+import{ap as a}from"./app-Emimr32R.js";function o(n){return a(`manage/${encodeURIComponent(n)}`)}export{o as m};
